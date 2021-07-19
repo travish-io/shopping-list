@@ -54,6 +54,7 @@ addToList("iceCream");
 
 // console.log(groceryList);
 
+// the for of loop iterates through the whole array
 for (const listItem of groceryList) {
   if (listItem.price >= 6) {
     console.log(listItem);
