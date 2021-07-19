@@ -52,4 +52,16 @@ addToList("bacon");
 addToList("pubSub");
 addToList("iceCream");
 
-console.log(groceryList);
+// console.log(groceryList);
+
+for (const listItem of groceryList) {
+  if (listItem.price >= 6) {
+    console.log(listItem);
+  }
+}
+
+// for (let i = 0; i < groceryList.length; i++) {
+//   if (groceryList[i].price >= 6) {
+//     console.log(groceryList[i]);
+//   }
+// }
